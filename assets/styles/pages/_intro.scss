@@ -1,0 +1,79 @@
+#govillantas_intro{
+	.govillantas-entrar{
+		background-image: url('../images/llanta_01.jpg');
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+		color: $color-blanco;
+		.govillantas-entrar-container{
+			height: 280px;
+		}
+	}
+
+	.govillantas-form{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ed9017+0,f2c657+100 */
+		background: #ed9017; /* Old browsers */
+		background: -moz-linear-gradient(top, #ed9017 0%, #f2c657 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #ed9017 0%,#f2c657 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #ed9017 0%,#f2c657 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		
+
+		height: 100vh;
+		text-align: center;
+		color: $color-blanco;
+		font-weight: 300;
+		.govillantas-form-text{
+			max-width: 304px;
+			margin:0 auto;
+		}
+		.govillantas-contact-form-7{
+			height: 54px;
+			width: 100%;
+		}
+		#wpcf7-f5-o1 .wpcf7-form-control, .wpcf7-f5-o1 input[type="text"]{
+				label{
+					font-weight: 300 !important;
+				}
+		}
+		#wpcf7-f5-o1 {
+			label{
+				font-weight: 300 !important;
+			}
+		}
+		.wpcf7-text, .wpcf7-textarea{
+			background-color: $color-negro-light;
+			border: none;
+			color: $color-blanco;
+			height: 32px;
+			padding: 6px;
+			border-radius: 5px;
+			font-weight: 300;
+			box-shadow: 1px 1px 4px #222222 inset;
+		}
+
+		.wpcf7-submit{
+			background-color: $color-negro-light;
+			color: $color-blanco;
+			border-radius: 5px;
+			border:none;
+			padding: 5px;
+			width: 80px;
+			transition: background-color 0.4s;
+			&:hover{
+				background-color: $color-naranaja-dark;
+				color: $color-negro;
+
+			}
+		}
+
+		// input::placeholder {
+		//   color: red;
+		// }
+
+		.wpcf7-form-control::placeholder{
+			color: $color-blanco-light;
+			opacity: 0.7;
+		}
+	}
+}
+
